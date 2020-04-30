@@ -21,7 +21,20 @@
     <!-- style CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-
+<style>
+    .text{
+        text-align: center ;
+        width: 10px;
+        height: 10px;
+    }
+    .empty{
+        width: 10px;
+        height: 10px;
+    }
+    h1{
+        text-align: center;
+    }
+</style>
 <body>
     <!--::header part start::-->
     <header class="main_menu">
@@ -89,39 +102,99 @@
         </div>
     </header>
     <!-- Header part end-->
-    <CENTER>
-        <TABLE BORDER=3 CELLPADDING=3>
-        <CAPTION>日課表</CAPTION>
-        <TR>
-        <TH>　　星期<BR>時間　　<TH>一<TH>二<TH>;三<TH>四<TH>五<TH>六
-        <TR>
-        <TH>8:20<BR>|<BR>9:10
-        <TD>　　<BR>　　<BR>　　　
-        <TD>　　<BR>　　<BR>　　　
-        <TD ROWSPAN=2 ALIGN=CENTER>網路<BR>應用
-        <TD>　　<BR>　　<BR>　　　
-        <TD ROWSPAN=2 ALIGN=CENTER>網路<BR>應用
-        <TD ROWSPAN=3 ALIGN=CENTER>作業<BR>系統
-        <TR>
-        <TH>9:15<BR>|<BR>10:05
-        <TD>　　<BR>　　<BR>　　　
-        <TD ROWSPAN=3 ALIGN=CENTER>高等<BR>程式<BR>設計
-        <TD>　　<BR>　　<BR>　　　
-        <TR>
-        <TH>10:15<BR>|<BR>11:05
-        <TD ALIGN=CENTER>網路<BR>應用
-        <TD>　　<BR>　　<BR>　　　
-        <TD>　　<BR>　　<BR>　　　
-        <TD>　　<BR>　　<BR>　　　
-        <TR>
-        <TH>11:10<BR>|<BR>12:00
-        <TD ALIGN=CENTER>網路<BR>應用
-        <TD>　　<BR>　　<BR>　　　
-        <TD>　　<BR>　　<BR>　　　
-        <TD>　　<BR>　　<BR>　　　
-        <TD>　　<BR>　　<BR>　　　
-        </TABLE>
-        </CENTER>
+<h1>淡江課表</h1>
+<table width = 70%; align="center" style="table-layout:auto;" border="2">
+<tr>
+    <td>節次\星期</td>
+    <td class = "text">一</td>
+    <td class = "text">二</td>
+    <td class = "text">三</td>
+    <td class = "text">四</td>
+    <td class = "text">五</td>
+    <td class = "text">六</td>
+    <td class = "text">日</td>
+</tr>
+<tr>
+    <td class="text">一</td>
+    <td rowspan="2" class="text" >體育 <br>瑜珈</td>
+    <td class="empty"></td>
+    <td rowspan="2" class="text" >必修<br>應統</td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+</tr>
+<tr>
+    <td class="text">二</td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td rowspan="3" class="text" >主管的課<br>網路爬蟲</td>
+    <td class="empty"></td>
+</tr>
+<tr>
+    <td class="text">三</td>
+    <td rowspan="2" class="text" >通識 <br>網頁概論</td>
+    <td></td>
+    <td rowspan="2" class="text" >體育<br>皮拉提斯</td>
+    <td rowspan="3" class="text" >選修<br>廢課</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td class="text">四</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td class="text">五</td>
+    <td class="text">午休</td>
+    <td class="text">午休</td>
+    <td class="text">午休</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td class="text">六</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td rowspan="3" class="text" >選修<br>資料探勘</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td class="text">七</td>
+    <td rowspan="2" class="text" >通識 <br>網頁設計</td>
+    <td></td>
+    <td rowspan="2" class="text" >體育<br>皮拉提斯</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td class="text">八</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td class="text">九</td>
+    <td rowspan="2" class="text" >通識 <br>通識</td>
+    <td></td>
+    <td rowspan="2" class="text" >體育<br>網球</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+</table>
+
+    
         
     <script src="js/jquery-1.12.1.min.js"></script>
     <!-- popper js -->
